@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@200&display=swap');
+
+body, html{
+  background-color: rgb(230, 239, 246);
+}
+
+div {
+  width: 640px;
+  height: 480px;
+}
+.a1{
+  font-family: 'Karla';
+  font-size: 14px; 
+  font-weight: 200;
+  text-align: left;
+  margin-top: 15px;
+  color: white; 
+  line-height: 20px;
+}
+h1 {
+  color: rgb(43, 179, 177);
+  font-size: 24px;
+  font-family: 'Karla';
+  font-weight: 600;
+  text-align: left;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+h2 {
+  color: rgb(191, 223, 50);
+  font-size: 18px;
+  font-family: 'Karla';
+  font-weight: 400;
+  text-align: left;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+h3 {
+  color: white;
+  font-size: 18px;
+  font-family: 'Karla';
+  font-weight: 400;
+  text-align: left;
+  margin: 0%;
+}
+
+
+
+#mainpanel {
+  border-radius: 8px;
+  background-color: white;
+  width: 640px;
+  height: 480px;
+  position: relative;
+  box-shadow: 5px 5px 5px 5px  #d6e3ed;
+  margin-top: 12%;
+}
+#toppanel {
+  background-color: white;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  width: auto;
+  height: 160px;
+  position: absolute;
+  padding: 30px;
+}
+
+#leftpanel {
+  background-color: rgb(43, 179, 177);
+  height: 170px;
+  width: 235px;
+  border-bottom-left-radius: 8px;
+  position:absolute;
+  bottom: 0%;
+  left: 0%;
+  padding: 45px;
+}
+
+#rightpanel {
+  background-color: rgb(74, 190, 189);
+  height: 170px;
+  width: 235px;
+  border-bottom-right-radius: 8px;
+  position:absolute;
+  bottom: 0%;
+  right: 0%;
+  padding: 45px;
+}
+
+.center {
+  margin: auto;
+}
+
+#text1 {
+  font-family: 'Karla';
+  font-weight: 200;
+  text-align: left;
+  margin-top: 15px;
+  color: rgb(175, 179, 188); 
+  font-size: 16px; 
+  line-height: 25px;
+
+}
+
+#text2 {
+  font-family: 'Karla';
+  font-size: 16px; 
+  font-weight: 200;
+  text-align: left;
+  margin-top: 5px;
+  color: white; 
+  line-height: 20px;
+
+}
+
+
+#text4 {
+  font-family: 'Karla';
+  font-size: 16; 
+  font-weight: 200;
+  text-align: left;
+  margin-top: 15px;
+  color: white; 
+  line-height: 20px;
+
+}
+
+
+span.a2 {
+  display: inline;
+  font-family: 'Karla';
+  font-size: 8; 
+  font-weight: 200;
+  text-align: left;
+  color: #7bebea; 
+  line-height: 20px;
+  vertical-align: middle;
+  margin-left: 8px;
+}
+
+span.b2 {
+  color: white;
+  font-size: 35px;
+  font-family: 'Karla';
+  font-weight: 400;
+  text-align: left;
+  vertical-align: middle;
+}
+
+.button {
+  background-color: #bfdf32;
+  color: #FFFFFF;
+  border: none;
+  border-color: #bfdf32;
+  margin-left: 0px;
+  border-radius: 7px;
+  margin-top: 1%;
+  width: 230px;
+  height: 50px;
+  font-family: 'Karla';
+  font-size: 16px; 
+  font-weight: 600;
+  box-shadow: 2px 2px 2px 2px #1aa3a1;
+  cursor: pointer;
+}
